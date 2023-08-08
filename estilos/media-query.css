@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Typical Devices Breakpoints
+------------------------------------------ 
+Mobile devices – 320px — 600px.
+Celulares – 600px — 768px.
+Tablets – 769px — 992px.
+Desktops, large screens – 992px — 1200px.
+Extra large screens, TV – 1201px, and more.
+*/
+
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+    
+}
